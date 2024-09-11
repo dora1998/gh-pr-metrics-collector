@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true
+  },
+  "tasks": {
+    "collect": "deno run --allow-env=GITHUB_TOKEN --allow-read=.env --allow-write --allow-net=api.github.com collect.ts",
+    "calc": "deno run --allow-read --allow-write calc.ts"
+  }
+}

@@ -1,0 +1,4 @@
+.env
+raw/
+result/
+.DS_Store
